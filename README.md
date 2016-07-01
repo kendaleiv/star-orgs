@@ -12,7 +12,15 @@ A group of developers led by @kendaleiv has established a new project based on D
 
 Obsessed with finding more information, the developers have dispatched remote probes into the far reaches of space...
 
-## Usage
+## Quick deployment
+
+Simply use the following to deploy your own version to Azure:
+
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
+You'll want to create app settings for `ENDPOINT_ID`, `CLIENT_ID`, and `CLIENT_SECRET` for your environment.
+
+## Manual deployment / usage
 
 - Install [Node.js](https://nodejs.org) and npm *(if they are not already installed)*.
 - Configure Azure Active Directory:
