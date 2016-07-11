@@ -263,6 +263,10 @@ export default class ForceDirectedGraphRenderer {
       pictureElement.style.visibility = 'hidden';
     }
 
+    pictureElement.onerror = evt => {
+      evt.target.style.visibility = 'hidden';
+    };
+
     this._setElementIdText('js-information-name', d.displayName);
     this._setElementIdText('js-information-job-title', d.jobTitle);
     this._setElementIdText('js-information-department', d.department);
