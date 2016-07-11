@@ -60,6 +60,9 @@ text {
 .sidebar .controls .group-by-container {
   padding: 20px 20px 0 20px;
 }
+.sidebar .controls .record-count {
+  padding: 10px 0 0 10px;
+}
 .sidebar .controls .search-input {
   width: 295px;
   font-size: 32px;

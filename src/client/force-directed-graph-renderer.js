@@ -223,6 +223,10 @@ export default class ForceDirectedGraphRenderer {
 
       this.onNodeClick(d);
     }
+
+    document.getElementById('js-search-record-count').innerText = str
+      ? `(${highlightedCircles[0].length} matches)`
+      : '';
   }
 
   getNameAbbreviation(displayName) {
